@@ -1,0 +1,10 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+
+	implementation group: 'javax.transaction', name: 'javax.transaction-api', version: '1.3'
+	implementation group: 'org.eclipse.persistence', name: 'javax.persistence', version: '2.1.0'
+
+	implementation project(":modules:example-api")
+	
+	compileInclude group: 'com.zaxxer', name: 'sansorm', version: '3.7'
+}

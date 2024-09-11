@@ -1,0 +1,5 @@
+Bundle-Name: Liferay SansORM Example Implementation
+Bundle-SymbolicName: com.liferay.example.impl
+Bundle-Version: 1.0.0
+Bundle-Activator: com.liferay.example.internal.impl.SansORMInitializer
+

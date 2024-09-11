@@ -1,0 +1,8 @@
+Bundle-Name: Liferay SansORM Example API
+Bundle-SymbolicName: com.liferay.example.api
+Bundle-Version: 1.0.0
+
+Export-Package: com.liferay.example.api.model, \
+    com.liferay.example.api.service
+
+
